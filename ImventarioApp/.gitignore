@@ -10,6 +10,7 @@ obj/
 #Archivos Temporales
 *.log
 *.temporales
+
 #Archivos del sistema
 .DS_Store
 Thumbs.db

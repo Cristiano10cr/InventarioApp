@@ -2,6 +2,7 @@
 // SISTEMA DE INVENTARIO - Clase 1.1
 // Estado: Mensaje de bienvenida
 // ============================================================
+
 using System.Reflection;
  
     var assembly =Assembly.GetExecutingAssembly();
@@ -19,8 +20,15 @@ Console.WriteLine($"Plataforma: {Environment.OSVersion}");
 Console.WriteLine($".NET Version: {Environment.Version}");
 Console.WriteLine();
 Console.WriteLine("Estructura de proyecto: ");
-Console.WriteLine("Configuracion .csproj: ");
+Console.WriteLine(" InventarioApp/");
+Console.WriteLine("  |--Program.cs");
+Console.WriteLine("  |--InventarioApp.csproj");
+Console.WriteLine("  |--gitignore");
+Console.WriteLine("  |--README.md");
+Console.WriteLine("  |--src/");
+Console.WriteLine("     |--Models/ (Proxima clase");
+Console.WriteLine("Configuracion.csproj: ");
 Console.WriteLine("Carpeta src/ creada");
 Console.WriteLine("Metadatos Configurados");
 Console.WriteLine();
-Console.WriteLine("Proximo paso: Agregar argumentos CLI' y confguracion de repositorio en github");
+Console.WriteLine("Proximo paso: Checkpoint");
